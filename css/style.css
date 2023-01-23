@@ -1,0 +1,69 @@
+body{
+    background-color: #C8C8C8;
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#form{
+    text-align: center;
+    padding: 30px;
+}
+button{
+    cursor: pointer;
+}
+.buttonChoice{
+    padding: 15px;
+    border-radius: 25%;
+    margin: 10px;
+}
+.buttonChoice:hover{
+    background-color: #FAFA;
+    border: solid black 2px;
+}
+.playerName{
+    padding: 0;
+    margin: 0;
+}
+.playerScore{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+#computerText{
+    padding: 0;
+    padding-top: 50px;
+    margin: 0;
+}
+.computerScore{
+    padding-top: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+#resultText{
+    padding: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.gameInfo{
+    text-align: center;
+    margin: 50px;
+}
+#playAgain{
+    padding:10px;
+    margin: 20px;
+}
+#playAgain:hover{
+    background-color: limegreen;
+}
+.winnerTextPlayer{
+    text-align: center;
+    background-color: limegreen;
+}
+.winnerTextComputer{
+    text-align: center;
+    background-color: red;
+}
